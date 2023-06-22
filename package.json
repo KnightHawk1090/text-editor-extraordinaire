@@ -2,9 +2,9 @@
   "name": "text-editor-extraordinaire",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
-    "start:dev": "",
+    "start:dev": "nodemon server.js",
     "start": "node server.js --omit=dev",
     "server": "",
     "build": "",
